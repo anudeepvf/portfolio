@@ -66,24 +66,22 @@ git commit -m "Initial commit: Anudeep V F Portfolio"
 # Rename branch to main
 git branch -M main
 
-# Link your GitHub repository (replace <username> with your actual GitHub username)
-git remote add origin https://github.com/<your-username>/portfolio.git
+# Link your GitHub repository
+git remote add origin https://github.com/anudeepvf/portfolio.git
 
 # Push the code
 git push -u origin main
 ```
 
 ### Step 3: Enable GitHub Pages
-1. Go to your repository on GitHub.
+1. Go to your repository on GitHub: https://github.com/anudeepvf/portfolio
 2. Click **Settings** (top menu bar).
 3. In the left sidebar, click **Pages**.
 4. Under **Build and deployment**:
-   - Source: **Deploy from a branch**
-   - Branch: Select **`main`** and folder **`/(root)`**
-5. Click **Save**.
-6. Wait 1–2 minutes, refresh the page, and GitHub will provide your live URL:
+   - Source: **GitHub Actions** (or **Deploy from a branch** -> **`main`** / **`/(root)`**)
+5. Your site will be live at:
    ```
-   https://<your-username>.github.io/portfolio/
+   https://anudeepvf.github.io/portfolio/
    ```
 
 ---
