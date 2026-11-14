@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anudeep V F | Portfolio - BCA Graduate & Software Developer</title>
+  <meta name="description" content="Portfolio of Anudeep V F - BCA Graduate, Web & Python Developer based in Byndoor, Karnataka. Explore projects, certifications, skills, and education." />
+  <meta name="keywords" content="Anudeep V F, Portfolio, BCA Graduate, Web Developer, Python Developer, Byndoor, Karnataka, JavaFX, PHP, AWS" />
+  <meta name="author" content="Anudeep V F" />
+
+  <!-- Open Graph / Meta for Social Sharing -->
+  <meta property="og:title" content="Anudeep V F | Portfolio" />
+  <meta property="og:description" content="Explore projects, skills, education, and certifications of Anudeep V F." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Background Decorative Glow Elements -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-glow bg-glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-bracket">&lt;</span>Anudeep<span class="brand-accent">.VF</span><span class="brand-bracket"> /&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certificates</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon dark-icon"></i>
+          <i class="fa-solid fa-sun light-icon"></i>
+        </button>
+
+        <a href="#contact" class="btn btn-primary nav-cta">Let's Connect</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Available for New Opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Anudeep V F</span>
+          </h1>
+
+          <div class="hero-dynamic-subtitle">
+            <span class="static-txt">I build with</span>
+            <span class="typing-text" id="typing-text">Python & Web Technologies</span>
+            <span class="cursor">&nbsp;</span>
+          </div>
+
+          <p class="hero-description">
+            Passionate <strong>BCA Graduate (CGPA 8.0)</strong> and aspiring Software Developer from Byndoor, Karnataka. Dedicated to engineering user-centric web applications, writing clean code, and contributing with high technical rigor, honesty, and continuous learning.
+          </p>
+
+          <!-- Quick Metrics Grid -->
+          <div class="hero-metrics">
+            <div class="metric-card">
+              <span class="metric-val">8.0</span>
+              <span class="metric-label">BCA CGPA</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-val">6+</span>
+              <span class="metric-label">Certifications</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-val">2+</span>
+              <span class="metric-label">Core Projects</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-val">100%</span>
+              <span class="metric-label">Dedication</span>
+            </div>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="mailto:anudeepvfbyndoor@gmail.com" class="btn btn-outline" id="quick-hire-btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Hire Me</span>
+            </a>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <a href="mailto:anudeepvfbyndoor@gmail.com" class="social-icon" title="Email Anudeep" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+919380523675" class="social-icon" title="Call Anudeep" aria-label="Phone">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://wa.me/919380523675" target="_blank" rel="noopener noreferrer" class="social-icon" title="WhatsApp" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-avatar-wrapper">
+          <div class="avatar-glow-ring"></div>
+          <div class="avatar-card">
+            <div class="avatar-header">
+              <div class="avatar-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">anudeep@developer:~</span>
+            </div>
+            <div class="avatar-code-block">
+              <p><span class="code-keyword">const</span> <span class="code-var">candidate</span> = {</p>
+              <p class="code-indent"><span class="code-prop">name</span>: <span class="code-str">"Anudeep V F"</span>,</p>
+              <p class="code-indent"><span class="code-prop">degree</span>: <span class="code-str">"BCA (2022-2025)"</span>,</p>
+              <p class="code-indent"><span class="code-prop">score</span>: <span class="code-str">"CGPA 8.0"</span>,</p>
+              <p class="code-indent"><span class="code-prop">location</span>: <span class="code-str">"Byndoor, Udupi, Karnataka"</span>,</p>
+              <p class="code-indent"><span class="code-prop">focus</span>: [<span class="code-str">"Python"</span>, <span class="code-str">"Web Dev"</span>, <span class="code-str">"JavaFX"</span>],</p>
+              <p class="code-indent"><span class="code-prop">ambition</span>: <span class="code-str">"Excellence with high integrity"</span>,</p>
+              <p class="code-indent"><span class="code-prop">openForWork</span>: <span class="code-bool">true</span></p>
+              <p>};</p>
+              <p><span class="code-func">candidate</span>.<span class="code-method">startCareer</span>();</p>
+            </div>
+            <div class="avatar-footer-tag">
+              <i class="fa-solid fa-code-commit"></i>
+              <span>Ready to deliver impactful solutions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Profile Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">A blend of academic discipline, technical drive, and ethical commitment.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-about">
+            <div class="about-icon-header">
+              <i class="fa-solid fa-user-graduate"></i>
+              <h3>Career Objective & Vision</h3>
+            </div>
+            <p class="about-text">
+              Aspiring for a challenging and forward-looking career that complements my Educational and Technical foundation.
+              Beyond technical proficiency, I hold an unwavering commitment to <strong>honesty, friendliness, and a proactive helping nature</strong> throughout my professional and personal life.
+            </p>
+            <p class="about-text">
+              Equipped with a solid computer applications grounding from Shree Guru Sudhindra College, Bhatkal (CGPA 8.0), I actively blend software development capabilities (Python, Web Technologies, Java) with strong analytical thinking, leadership, and fast-paced self-learning.
+            </p>
+
+            <div class="about-details-list">
+              <div class="detail-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Location</strong>
+                  <span>Kalmakki, Byndoor, Udupi, Karnataka - 576214</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:anudeepvfbyndoor@gmail.com">anudeepvfbyndoor@gmail.com</a>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <strong>Phone</strong>
+                  <a href="tel:+919380523675">+91 9380523675</a>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>Qualification</strong>
+                  <span>Bachelor of Computer Application (BCA)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-features">
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-bullseye"></i></div>
+              <div class="feature-content">
+                <h4>Goal-Oriented Developer</h4>
+                <p>Passionate about writing structured code and delivering real solutions for web and software systems.</p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+              <div class="feature-content">
+                <h4>Rapid Adaptability</h4>
+                <p>Quick to absorb new tools, frameworks, and workflows with natural problem-solving capabilities.</p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-people-group"></i></div>
+              <div class="feature-content">
+                <h4>Teamwork & Leadership</h4>
+                <p>Demonstrated interpersonal collaboration, seminar presentations, and effective team dynamics.</p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-certificate"></i></div>
+              <div class="feature-content">
+                <h4>Continuous Upskilling</h4>
+                <p>Accredited in AWS cloud fundamentals, AI/ML, and TCS iON professional career competencies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical & Professional Skills</h2>
+          <p class="section-subtitle">Categorized breakdown of programming languages, web stacks, and professional strengths.</p>
+        </div>
+
+        <div class="skills-filter-container">
+          <button class="skill-filter-btn active" data-filter="all">All Skills</button>
+          <button class="skill-filter-btn" data-filter="technical">Technical & Dev</button>
+          <button class="skill-filter-btn" data-filter="soft">Professional & Soft Skills</button>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Technical Skills -->
+          <div class="skill-card" data-category="technical">
+            <div class="skill-header">
+              <div class="skill-icon python-icon"><i class="fa-brands fa-python"></i></div>
+              <span class="skill-level">Core Language</span>
+            </div>
+            <h4 class="skill-name">Python</h4>
+            <p class="skill-desc">Programming, algorithmic problem solving, scripting, and logical data operations.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 85%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="technical">
+            <div class="skill-header">
+              <div class="skill-icon html-icon"><i class="fa-brands fa-html5"></i></div>
+              <span class="skill-level">Frontend</span>
+            </div>
+            <h4 class="skill-name">HTML5 & Web Semantics</h4>
+            <p class="skill-desc">Clean, accessible markup structures, modern semantic layouts, and responsive elements.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 90%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="technical">
+            <div class="skill-header">
+              <div class="skill-icon css-icon"><i class="fa-brands fa-css3-alt"></i></div>
+              <span class="skill-level">Styling</span>
+            </div>
+            <h4 class="skill-name">CSS3 & Responsive UI</h4>
+            <p class="skill-desc">Flexbox, CSS Grid, media queries, CSS variables, transitions, and modern aesthetics.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 88%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="technical">
+            <div class="skill-header">
+              <div class="skill-icon js-icon"><i class="fa-brands fa-js"></i></div>
+              <span class="skill-level">Scripting</span>
+            </div>
+            <h4 class="skill-name">JavaScript</h4>
+            <p class="skill-desc">DOM manipulation, event handling, dynamic client-side interactivity, and UI state.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="technical">
+            <div class="skill-header">
+              <div class="skill-icon php-icon"><i class="fa-brands fa-php"></i></div>
+              <span class="skill-level">Backend</span>
+            </div>
+            <h4 class="skill-name">PHP</h4>
+            <p class="skill-desc">Server-side request handling, session control, form processing, and database integration.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 78%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="technical">
+            <div class="skill-header">
+              <div class="skill-icon sql-icon"><i class="fa-solid fa-database"></i></div>
+              <span class="skill-level">Database</span>
+            </div>
+            <h4 class="skill-name">SQL & Relational Databases</h4>
+            <p class="skill-desc">Database schema design, queries, CRUD operations, joins, and data integrity.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 82%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="technical">
+            <div class="skill-header">
+              <div class="skill-icon java-icon"><i class="fa-brands fa-java"></i></div>
+              <span class="skill-level">Desktop Apps</span>
+            </div>
+            <h4 class="skill-name">Java & JavaFX (FXML)</h4>
+            <p class="skill-desc">Object-Oriented Programming, GUI development with Scene Builder, FXML architectures.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="technical">
+            <div class="skill-header">
+              <div class="skill-icon aws-icon"><i class="fa-brands fa-aws"></i></div>
+              <span class="skill-level">Cloud Basics</span>
+            </div>
+            <h4 class="skill-name">AWS Cloud & AI/ML Fundamentals</h4>
+            <p class="skill-desc">Understanding of cloud hosting basics, AWS certified industrial concepts, and ML fundamentals.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 75%;"></div>
+            </div>
+          </div>
+
+          <!-- Professional / Soft Skills -->
+          <div class="skill-card" data-category="soft">
+            <div class="skill-header">
+              <div class="skill-icon soft-icon"><i class="fa-solid fa-brain"></i></div>
+              <span class="skill-level">Critical Strength</span>
+            </div>
+            <h4 class="skill-name">Problem-Solving & Logical Reasoning</h4>
+            <p class="skill-desc">Methodical approach to debugging, algorithmic formulation, and analytical analysis.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 92%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="soft">
+            <div class="skill-header">
+              <div class="skill-icon soft-icon"><i class="fa-solid fa-users"></i></div>
+              <span class="skill-level">Core Trait</span>
+            </div>
+            <h4 class="skill-name">Leadership & Team Collaboration</h4>
+            <p class="skill-desc">Coordinating with team members, delegating effectively, and fostering positive environments.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 90%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="soft">
+            <div class="skill-header">
+              <div class="skill-icon soft-icon"><i class="fa-solid fa-clock"></i></div>
+              <span class="skill-level">Productivity</span>
+            </div>
+            <h4 class="skill-name">Time Management & Decision Making</h4>
+            <p class="skill-desc">Structured prioritization, hitting milestones consistently, and rational decision paths.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 88%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="soft">
+            <div class="skill-header">
+              <div class="skill-icon soft-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+              <span class="skill-level">Communication</span>
+            </div>
+            <h4 class="skill-name">Presentation & Seminars (PPTs)</h4>
+            <p class="skill-desc">Clear articulation of complex technical concepts, slide design, and seminar delivery.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 86%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="soft">
+            <div class="skill-header">
+              <div class="skill-icon soft-icon"><i class="fa-solid fa-keyboard"></i></div>
+              <span class="skill-level">Efficiency</span>
+            </div>
+            <h4 class="skill-name">Fast Typing & Detail Orientation</h4>
+            <p class="skill-desc">High typing speed with acute vigilance towards code syntax, edge cases, and bug prevention.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 94%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="soft">
+            <div class="skill-header">
+              <div class="skill-icon soft-icon"><i class="fa-solid fa-seedling"></i></div>
+              <span class="skill-level">Growth Mindset</span>
+            </div>
+            <h4 class="skill-name">Adaptability & Self-Learning Ability</h4>
+            <p class="skill-desc">Enthusiastic curiosity to explore new libraries, frameworks, and modern software paradigms.</p>
+            <div class="skill-progress-bar">
+              <div class="progress" style="width: 95%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world applications showcasing full-stack web and desktop software engineering.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Byndoor Tourism App -->
+          <article class="project-card">
+            <div class="project-banner project-banner-1">
+              <div class="project-badge">Web Application</div>
+              <div class="project-banner-content">
+                <i class="fa-solid fa-umbrella-beach project-watermark"></i>
+                <h3 class="banner-title">Byndoor Tourism</h3>
+                <span class="banner-sub">A Haven of Natural Beauty</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Byndoor - A Heaven of Natural Beauty</h3>
+              <p class="project-desc">
+                A dedicated tourism-based web platform engineered to promote and showcase the picturesque natural attractions, serene beaches, and cultural heritage of Byndoor, Udupi, Karnataka.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Dynamic tourist spots catalog & attraction gallery</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>PHP backend processing traveler queries & feedback</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>SQL database structuring destinations & visitor insights</span>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+                <span class="tech-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                <span class="tech-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span class="tech-tag"><i class="fa-brands fa-php"></i> PHP</span>
+                <span class="tech-tag"><i class="fa-solid fa-database"></i> SQL</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm open-modal-btn" data-project="byndoor">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Hospital Appointment Booking -->
+          <article class="project-card">
+            <div class="project-banner project-banner-2">
+              <div class="project-badge">Desktop Application</div>
+              <div class="project-banner-content">
+                <i class="fa-solid fa-hospital-user project-watermark"></i>
+                <h3 class="banner-title">Hospital Booking</h3>
+                <span class="banner-sub">Appointment System</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Hospital Appointment Booking System</h3>
+              <p class="project-desc">
+                A streamlined Java desktop software system designed to eliminate patient wait times, manage clinical doctor schedules, and automate appointment slot allocations with an interactive UI.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Modern graphical user interface designed in JavaFX & FXML</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Robust OOP architecture for patient & doctor records</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Input validation & instant booking confirmation pipeline</span>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag"><i class="fa-brands fa-java"></i> Java</span>
+                <span class="tech-tag"><i class="fa-solid fa-window-maximize"></i> JavaFX</span>
+                <span class="tech-tag"><i class="fa-solid fa-code"></i> FXML</span>
+                <span class="tech-tag"><i class="fa-solid fa-cubes"></i> OOP</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm open-modal-btn" data-project="hospital">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="section certs-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Certifications & Accreditations</h2>
+          <p class="section-subtitle">Verified professional training in cloud computing, artificial intelligence, and industry skills.</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">TCS iON</span>
+              <h4 class="cert-name">Career Edge - Young Professional</h4>
+              <p class="cert-desc">Comprehensive training in workplace readiness, corporate communication, business etiquette, and collaborative productivity.</p>
+              <div class="cert-footer">
+                <span class="cert-tag"><i class="fa-solid fa-shield-check"></i> Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">TCS iON</span>
+              <h4 class="cert-name">Career Edge - IT for Non-IT</h4>
+              <p class="cert-desc">Core IT infrastructure, computing fundamentals, software development life cycle (SDLC), and modern technical tools.</p>
+              <div class="cert-footer">
+                <span class="cert-tag"><i class="fa-solid fa-shield-check"></i> Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-brands fa-aws"></i>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">Amazon Web Services</span>
+              <h4 class="cert-name">AWS Industrial Training Certificate</h4>
+              <p class="cert-desc">Cloud architecture fundamentals, EC2, S3, cloud security best practices, and scalable cloud application hosting principles.</p>
+              <div class="cert-footer">
+                <span class="cert-tag"><i class="fa-solid fa-shield-check"></i> Industrial Certification</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">AWS Partner Network</span>
+              <h4 class="cert-name">AWS Internship Certificate</h4>
+              <p class="cert-desc">Practical hands-on exposure to cloud provisioning, virtual instances, deployment workflows, and infrastructure management.</p>
+              <div class="cert-footer">
+                <span class="cert-tag"><i class="fa-solid fa-shield-check"></i> Internship Completed</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">AI & ML Institute</span>
+              <h4 class="cert-name">Artificial Intelligence & Machine Learning</h4>
+              <p class="cert-desc">Foundational principles of intelligent systems, machine learning pipelines, predictive modeling concepts, and Python data handling.</p>
+              <div class="cert-footer">
+                <span class="cert-tag"><i class="fa-solid fa-shield-check"></i> Certified</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 6 -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <div class="cert-content">
+              <span class="cert-issuer">Unnati Foundation</span>
+              <h4 class="cert-name">Unnati Professional Certification</h4>
+              <p class="cert-desc">Vocational leadership training, professional ethics, critical decision making, and employment readiness acceleration.</p>
+              <div class="cert-footer">
+                <span class="cert-tag"><i class="fa-solid fa-shield-check"></i> Certified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Journey</span>
+          <h2 class="section-title">Education History</h2>
+          <p class="section-subtitle">Consistent academic background establishing strong computing and logical fundamentals.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Education 1: BCA -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge current-badge">Higher Education</span>
+                  <h3 class="timeline-title">Bachelor of Computer Application (BCA)</h3>
+                  <h4 class="timeline-institution">Shree Guru Sudhindra College, Bhatkal</h4>
+                </div>
+                <div class="timeline-score-box">
+                  <span class="score-num">8.0</span>
+                  <span class="score-type">CGPA</span>
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar-days"></i> 2022 - 2025
+              </div>
+              <p class="timeline-desc">
+                Core coursework spanning Data Structures, Database Management Systems (DBMS), Python Programming, Web Development (HTML/CSS/JS/PHP), Object-Oriented Software Engineering (Java), Software Testing, and Operating Systems.
+              </p>
+            </div>
+          </div>
+
+          <!-- Education 2: PUC -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge">Pre-University</span>
+                  <h3 class="timeline-title">Pre-University Course (PUC)</h3>
+                  <h4 class="timeline-institution">Government Pre-University College, Byndoor</h4>
+                </div>
+                <div class="timeline-score-box">
+                  <span class="score-num">67.33%</span>
+                  <span class="score-type">Percentage</span>
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar-days"></i> 2020 - 2022
+              </div>
+              <p class="timeline-desc">
+                Focused on analytical and scientific reasoning, establishing foundational problem-solving discipline and academic rigor prior to computer applications specialization.
+              </p>
+            </div>
+          </div>
+
+          <!-- Education 3: SSLC -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge">Secondary</span>
+                  <h3 class="timeline-title">Secondary School Leaving Certificate (SSLC)</h3>
+                  <h4 class="timeline-institution">Government Junior College, Byndoor</h4>
+                </div>
+                <div class="timeline-score-box">
+                  <span class="score-num">64.32%</span>
+                  <span class="score-type">Percentage</span>
+                </div>
+              </div>
+              <div class="timeline-period">
+                <i class="fa-regular fa-calendar-days"></i> Completed in 2020
+              </div>
+              <p class="timeline-desc">
+                Strong fundamental education in Mathematics, Science, and Languages, developing time management and early organizational skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">I'm currently seeking junior software engineering, web development, and Python opportunities.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-panel">
+            <h3 class="contact-panel-title">Contact Information</h3>
+            <p class="contact-panel-desc">
+              Feel free to reach out directly via email, phone, or messaging. I am prompt in replying and eager to discuss how I can contribute to your team!
+            </p>
+
+            <div class="contact-cards-list">
+              <!-- Email Card with Copy Button -->
+              <div class="contact-card">
+                <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-card-info">
+                  <span class="label">Email Address</span>
+                  <a href="mailto:anudeepvfbyndoor@gmail.com" class="value" id="email-value">anudeepvfbyndoor@gmail.com</a>
+                </div>
+                <button class="copy-btn" id="copy-email-btn" title="Copy email address" aria-label="Copy Email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-card-info">
+                  <span class="label">Phone / WhatsApp</span>
+                  <a href="tel:+919380523675" class="value">+91 9380523675</a>
+                </div>
+                <a href="https://wa.me/919380523675" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" title="Chat on WhatsApp" aria-label="WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <div class="contact-card-info">
+                  <span class="label">Location</span>
+                  <span class="value">Kalmakki, Byndoor, Udupi, Karnataka - 576214</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-social-box">
+              <span class="social-box-title">Follow & Network:</span>
+              <div class="social-pills">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:anudeepvfbyndoor@gmail.com" class="social-pill">
+                  <i class="fa-solid fa-paper-plane"></i> Quick Email
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-panel">
+            <h3 class="contact-panel-title">Send a Direct Message</h3>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="form-name">Your Full Name</label>
+                <div class="input-with-icon">
+                  <i class="fa-regular fa-user"></i>
+                  <input type="text" id="form-name" name="name" placeholder="John Doe" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">Your Email Address</label>
+                <div class="input-with-icon">
+                  <i class="fa-regular fa-envelope"></i>
+                  <input type="email" id="form-email" name="email" placeholder="john@example.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">Subject</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-tag"></i>
+                  <input type="text" id="form-subject" name="subject" placeholder="Job Opportunity / Project Inquiry" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <div class="input-with-icon">
+                  <i class="fa-regular fa-comment-dots"></i>
+                  <textarea id="form-message" name="message" rows="4" placeholder="Hello Anudeep, I came across your portfolio and would like to discuss..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+              <p class="form-status" id="form-status"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Detail Modal -->
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <div class="modal-content" id="modal-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-brand">
+          <span class="brand-bracket">&lt;</span>Anudeep<span class="brand-accent">.VF</span><span class="brand-bracket"> /&gt;</span>
+        </a>
+        <p class="footer-tagline">
+          BCA Graduate & Software Developer dedicated to high performance, continuous learning, and positive collaboration.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Navigation</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certificates</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Reach Out</h4>
+        <p><i class="fa-solid fa-location-dot"></i> Byndoor, Udupi, Karnataka - 576214</p>
+        <p><i class="fa-solid fa-envelope"></i> anudeepvfbyndoor@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +91 9380523675</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>&copy; 2026 Anudeep V F. Designed and Built with Passion.</p>
+        <a href="#hero" class="back-to-top" title="Back to top">
+          <span>Back to Top</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
